@@ -354,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1565417863}
   - component: {fileID: 1565417862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 2028781976}
   - component: {fileID: 2028781978}
   - component: {fileID: 2028781977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
