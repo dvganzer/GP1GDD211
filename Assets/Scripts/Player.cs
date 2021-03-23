@@ -2,13 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public float speed = 0.5f;
     public Rigidbody2D player;
     Vector2 move;
     public Animator animator;
+    private Inventory inventory;
     // Update is called once per frame
+    private void Awake()
+    {
+        inventory = new Inventory();
+    }
     void Update()
     {
         move.x = Input.GetAxisRaw("Horizontal");
